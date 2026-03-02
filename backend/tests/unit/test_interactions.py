@@ -30,4 +30,4 @@ def test_filter_excludes_interaction_with_different_learner_id() -> None:
     assert len(result) == 1
     assert result[0].id == 1
     assert result[0].item_id == 1
-    assert result[0].learner_id == 2
+    assert result[0].learner_id ==2
